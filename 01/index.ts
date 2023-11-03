@@ -14,6 +14,5 @@ words.forEach((value, key) => {
   response.push(`${key}${value}`)
 })
 
-console.log(response.join(''))
-
-message.split(' ').forEach((word) => {})
+const uncrypted = response.join('')
+console.log(uncrypted)
