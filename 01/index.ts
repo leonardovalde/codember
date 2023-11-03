@@ -15,3 +15,5 @@ words.forEach((value, key) => {
 })
 
 console.log(response.join(''))
+
+message.split(' ').forEach((word) => {})
